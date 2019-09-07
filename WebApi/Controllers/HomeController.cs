@@ -8,11 +8,9 @@ namespace WebApi.Controllers
 {
     public class HomeController : Controller
     {
+        // GET: Home
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
-            //var cm = new DbContext<HR_Employee_Info>();//不能把StudentManager变成静对象保证每次都NEW出来
-            //var a = cm.GetList();
             return View();
         }
     }

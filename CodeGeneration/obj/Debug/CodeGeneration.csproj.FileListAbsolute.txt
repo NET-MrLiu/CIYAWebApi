@@ -1,0 +1,15 @@
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\CodeGeneration.exe.config
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\CodeGeneration.exe
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\CodeGeneration.pdb
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\Newtonsoft.Json.dll
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\RazorEngine.dll
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\SqlSugar.dll
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\System.Web.Razor.dll
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\Newtonsoft.Json.xml
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\RazorEngine.xml
+E:\CiYAapi\CIYAWebApi\CodeGeneration\bin\Debug\System.Web.Razor.xml
+E:\CiYAapi\CIYAWebApi\CodeGeneration\obj\Debug\CodeGeneration.csproj.CoreCompileInputs.cache
+E:\CiYAapi\CIYAWebApi\CodeGeneration\obj\Debug\CodeGeneration.csproj.CopyComplete
+E:\CiYAapi\CIYAWebApi\CodeGeneration\obj\Debug\CodeGeneration.exe
+E:\CiYAapi\CIYAWebApi\CodeGeneration\obj\Debug\CodeGeneration.pdb
+E:\CiYAapi\CIYAWebApi\CodeGeneration\obj\Debug\CodeGeneration.csprojAssemblyReference.cache

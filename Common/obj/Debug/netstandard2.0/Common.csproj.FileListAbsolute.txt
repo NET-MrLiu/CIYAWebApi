@@ -1,0 +1,9 @@
+E:\CiYAapi\CIYAWebApi\Common\bin\Debug\netstandard2.0\Common.deps.json
+E:\CiYAapi\CIYAWebApi\Common\bin\Debug\netstandard2.0\Common.dll
+E:\CiYAapi\CIYAWebApi\Common\bin\Debug\netstandard2.0\Common.pdb
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.dll
+E:\CiYAapi\CIYAWebApi\Common\obj\Debug\netstandard2.0\Common.pdb

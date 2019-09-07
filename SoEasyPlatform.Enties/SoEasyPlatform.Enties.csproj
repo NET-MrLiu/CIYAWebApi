@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{165C6C50-2BBA-4993-AD36-5CB7F3EF9678}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoEasyPlatform.Enties</RootNamespace>
+    <AssemblyName>SoEasyPlatform.Enties</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.7.9\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.3.1\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlSugar, Version=5.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.5.0.0.9\lib\SqlSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbModels\View_WXB_Expend_Daily.cs" />
+    <Compile Include="DbModels\View_WXB_Expend.cs" />
+    <Compile Include="DbModels\View_Workflow.cs" />
+    <Compile Include="DbModels\View_Transfer_Record.cs" />
+    <Compile Include="DbModels\View_Task_Log.cs" />
+    <Compile Include="DbModels\View_Task_Info.cs" />
+    <Compile Include="DbModels\View_Service_Record.cs" />
+    <Compile Include="DbModels\View_Reinstate.cs" />
+    <Compile Include="DbModels\View_Project_Flow.cs" />
+    <Compile Include="DbModels\View_Product.cs" />
+    <Compile Include="DbModels\View_Permission.cs" />
+    <Compile Include="DbModels\View_Performance_Rank.cs" />
+    <Compile Include="DbModels\View_Performance.cs" />
+    <Compile Include="DbModels\View_Order_Worlflow.cs" />
+    <Compile Include="DbModels\View_Order_Rank.cs" />
+    <Compile Include="DbModels\View_Order_Combination.cs" />
+    <Compile Include="DbModels\View_Order.cs" />
+    <Compile Include="DbModels\View_NeverBreakout.cs" />
+    <Compile Include="DbModels\View_MySource.cs" />
+    <Compile Include="DbModels\View_Message.cs" />
+    <Compile Include="DbModels\View_Menu_Permission.cs" />
+    <Compile Include="DbModels\View_Menu_Nav.cs" />
+    <Compile Include="DbModels\View_Login_Log.cs" />
+    <Compile Include="DbModels\View_Linkman_Info.cs" />
+    <Compile Include="DbModels\View_Industry_Custom.cs" />
+    <Compile Include="DbModels\View_Handover_Info.cs" />
+    <Compile Include="DbModels\View_Group.cs" />
+    <Compile Include="DbModels\View_Grade_Line.cs" />
+    <Compile Include="DbModels\View_Goals_Info.cs" />
+    <Compile Include="DbModels\View_Goals_Child.cs" />
+    <Compile Include="DbModels\View_GetOrderStatus.cs" />
+    <Compile Include="DbModels\View_Emp_Transfer.cs" />
+    <Compile Include="DbModels\View_Employee.cs" />
+    <Compile Include="DbModels\View_Dimission.cs" />
+    <Compile Include="DbModels\View_Cust_Relationship.cs" />
+    <Compile Include="DbModels\View_Customer.cs" />
+    <Compile Include="DbModels\View_CRM_Record.cs" />
+    <Compile Include="DbModels\View_City_Info.cs" />
+    <Compile Include="DbModels\View_Brokerage_Proj_Series.cs" />
+    <Compile Include="DbModels\View_Brokerage_Grade.cs" />
+    <Compile Include="DbModels\View_Breakout_Personal.cs" />
+    <Compile Include="DbModels\View_Breakout_Completed.cs" />
+    <Compile Include="DbModels\View_Breakout.cs" />
+    <Compile Include="DbModels\View_Balance_Settled.cs" />
+    <Compile Include="DbModels\View_Balance.cs" />
+    <Compile Include="DbModels\View_Authentication.cs" />
+    <Compile Include="DbModels\View_Area.cs" />
+    <Compile Include="DbModels\View_Action_Log.cs" />
+    <Compile Include="DbModels\SYS_Type_Info.cs" />
+    <Compile Include="DbModels\SYS_Role.cs" />
+    <Compile Include="DbModels\SYS_Product_Permission.cs" />
+    <Compile Include="DbModels\SYS_Product_Package.cs" />
+    <Compile Include="DbModels\SYS_Product_Info.cs" />
+    <Compile Include="DbModels\SYS_Product_Class.cs" />
+    <Compile Include="DbModels\SYS_Permission.cs" />
+    <Compile Include="DbModels\SYS_Message.cs" />
+    <Compile Include="DbModels\SYS_Menu.cs" />
+    <Compile Include="DbModels\SYS_Login_Log.cs" />
+    <Compile Include="DbModels\SYS_Industry_Temp.cs" />
+    <Compile Include="DbModels\SYS_Industry_Info_Custom.cs" />
+    <Compile Include="DbModels\SYS_Hosts_Info.cs" />
+    <Compile Include="DbModels\SYS_Config.cs" />
+    <Compile Include="DbModels\SYS_City_Info.cs" />
+    <Compile Include="DbModels\SYS_Action_Log.cs" />
+    <Compile Include="DbModels\RPT_WXB_Project.cs" />
+    <Compile Include="DbModels\RPT_WXB_Expend_Daily.cs" />
+    <Compile Include="DbModels\RPT_WXB_Expend.cs" />
+    <Compile Include="DbModels\RPT_Quota_Template.cs" />
+    <Compile Include="DbModels\RPT_Quota_Setting.cs" />
+    <Compile Include="DbModels\RPT_Product_Setting_Template.cs" />
+    <Compile Include="DbModels\RPT_Product_Setting.cs" />
+    <Compile Include="DbModels\RPT_Performance_Record.cs" />
+    <Compile Include="DbModels\RPT_Monthly_Personal_Record.cs" />
+    <Compile Include="DbModels\RPT_Group_Setting_Template.cs" />
+    <Compile Include="DbModels\RPT_Group_Setting.cs" />
+    <Compile Include="DbModels\RPT_Grade_Line.cs" />
+    <Compile Include="DbModels\RPT_Goals_Info.cs" />
+    <Compile Include="DbModels\RPT_Goals_Group_Product.cs" />
+    <Compile Include="DbModels\RPT_Brokerage_Series.cs" />
+    <Compile Include="DbModels\RPT_Brokerage_Proj_Series.cs" />
+    <Compile Include="DbModels\RPT_Brokerage_Project.cs" />
+    <Compile Include="DbModels\RPT_Brokerage_Grade.cs" />
+    <Compile Include="DbModels\RPT_Brokerage_Accounts_Date.cs" />
+    <Compile Include="DbModels\OA_Workflow_Temp.cs" />
+    <Compile Include="DbModels\OA_Workflow.cs" />
+    <Compile Include="DbModels\OA_Task_Log.cs" />
+    <Compile Include="DbModels\OA_Task_Info.cs" />
+    <Compile Include="DbModels\OA_Service_Record.cs" />
+    <Compile Include="DbModels\OA_Service_Info.cs" />
+    <Compile Include="DbModels\OA_Project_Info.cs" />
+    <Compile Include="DbModels\OA_Project_Flow.cs" />
+    <Compile Include="DbModels\OA_Pre_Assign_Info.cs" />
+    <Compile Include="DbModels\OA_Order_Project.cs" />
+    <Compile Include="DbModels\OA_Feedback_Info.cs" />
+    <Compile Include="DbModels\HR_Transfer_Record.cs" />
+    <Compile Include="DbModels\HR_Reinstate_Info.cs" />
+    <Compile Include="DbModels\HR_Handover_Info.cs" />
+    <Compile Include="DbModels\HR_Employee_Info.cs" />
+    <Compile Include="DbModels\HR_Dimission_Info.cs" />
+    <Compile Include="DbModels\HR_Department_Info.cs" />
+    <Compile Include="DbModels\HR_Area_Info.cs" />
+    <Compile Include="DbModels\CRM_Transfer_Record.cs" />
+    <Compile Include="DbModels\CRM_Source_Info.cs" />
+    <Compile Include="DbModels\CRM_SignIn.cs" />
+    <Compile Include="DbModels\CRM_Record_Intention.cs" />
+    <Compile Include="DbModels\CRM_Record.cs" />
+    <Compile Include="DbModels\CRM_Order_Info.cs" />
+    <Compile Include="DbModels\CRM_Order_Combination.cs" />
+    <Compile Include="DbModels\CRM_Market_Info.cs" />
+    <Compile Include="DbModels\CRM_Linkman_Info.cs" />
+    <Compile Include="DbModels\CRM_Linkman_Cust.cs" />
+    <Compile Include="DbModels\CRM_Linkman_Char.cs" />
+    <Compile Include="DbModels\CRM_Intention.cs" />
+    <Compile Include="DbModels\CRM_Cust_Relationship.cs" />
+    <Compile Include="DbModels\CRM_Cust_Info_Expand.cs" />
+    <Compile Include="DbModels\CRM_Customer_Info.cs" />
+    <Compile Include="DbModels\CRM_AV_Record.cs" />
+    <Compile Include="DbModels\CRM_Authentication_Info.cs" />
+    <Compile Include="DbModels\CRM_Action_Class.cs" />
+    <Compile Include="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F9B467A-66E0-45A7-A2F9-D43D9DE78542}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoEasyPlatform.BusinessCore</RootNamespace>
+    <AssemblyName>SoEasyPlatform.BusinessCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.7.9\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlSugar, Version=5.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.5.0.0.9\lib\SqlSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseCore\SYS_Type_InfoManager.cs" />
+    <Compile Include="BaseCore\SYS_RoleManager.cs" />
+    <Compile Include="BaseCore\SYS_Product_PermissionManager.cs" />
+    <Compile Include="BaseCore\SYS_Product_PackageManager.cs" />
+    <Compile Include="BaseCore\SYS_Product_InfoManager.cs" />
+    <Compile Include="BaseCore\SYS_Product_ClassManager.cs" />
+    <Compile Include="BaseCore\SYS_PermissionManager.cs" />
+    <Compile Include="BaseCore\SYS_MessageManager.cs" />
+    <Compile Include="BaseCore\SYS_MenuManager.cs" />
+    <Compile Include="BaseCore\SYS_Login_LogManager.cs" />
+    <Compile Include="BaseCore\SYS_Industry_TempManager.cs" />
+    <Compile Include="BaseCore\SYS_Industry_Info_CustomManager.cs" />
+    <Compile Include="BaseCore\SYS_Hosts_InfoManager.cs" />
+    <Compile Include="BaseCore\SYS_ConfigManager.cs" />
+    <Compile Include="BaseCore\SYS_City_InfoManager.cs" />
+    <Compile Include="BaseCore\SYS_Action_LogManager.cs" />
+    <Compile Include="BaseCore\RPT_WXB_ProjectManager.cs" />
+    <Compile Include="BaseCore\RPT_WXB_Expend_DailyManager.cs" />
+    <Compile Include="BaseCore\RPT_WXB_ExpendManager.cs" />
+    <Compile Include="BaseCore\RPT_Quota_TemplateManager.cs" />
+    <Compile Include="BaseCore\RPT_Quota_SettingManager.cs" />
+    <Compile Include="BaseCore\RPT_Product_Setting_TemplateManager.cs" />
+    <Compile Include="BaseCore\RPT_Product_SettingManager.cs" />
+    <Compile Include="BaseCore\RPT_Performance_RecordManager.cs" />
+    <Compile Include="BaseCore\RPT_Monthly_Personal_RecordManager.cs" />
+    <Compile Include="BaseCore\RPT_Group_Setting_TemplateManager.cs" />
+    <Compile Include="BaseCore\RPT_Group_SettingManager.cs" />
+    <Compile Include="BaseCore\RPT_Grade_LineManager.cs" />
+    <Compile Include="BaseCore\RPT_Goals_InfoManager.cs" />
+    <Compile Include="BaseCore\RPT_Goals_Group_ProductManager.cs" />
+    <Compile Include="BaseCore\RPT_Brokerage_SeriesManager.cs" />
+    <Compile Include="BaseCore\RPT_Brokerage_Proj_SeriesManager.cs" />
+    <Compile Include="BaseCore\RPT_Brokerage_ProjectManager.cs" />
+    <Compile Include="BaseCore\RPT_Brokerage_GradeManager.cs" />
+    <Compile Include="BaseCore\RPT_Brokerage_Accounts_DateManager.cs" />
+    <Compile Include="BaseCore\OA_Workflow_TempManager.cs" />
+    <Compile Include="BaseCore\OA_WorkflowManager.cs" />
+    <Compile Include="BaseCore\OA_Task_LogManager.cs" />
+    <Compile Include="BaseCore\OA_Task_InfoManager.cs" />
+    <Compile Include="BaseCore\OA_Service_RecordManager.cs" />
+    <Compile Include="BaseCore\OA_Service_InfoManager.cs" />
+    <Compile Include="BaseCore\OA_Project_InfoManager.cs" />
+    <Compile Include="BaseCore\OA_Project_FlowManager.cs" />
+    <Compile Include="BaseCore\OA_Pre_Assign_InfoManager.cs" />
+    <Compile Include="BaseCore\OA_Order_ProjectManager.cs" />
+    <Compile Include="BaseCore\OA_Feedback_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Transfer_RecordManager.cs" />
+    <Compile Include="BaseCore\HR_Reinstate_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Handover_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Employee_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Dimission_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Department_InfoManager.cs" />
+    <Compile Include="BaseCore\HR_Area_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_Transfer_RecordManager.cs" />
+    <Compile Include="BaseCore\CRM_Source_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_SignInManager.cs" />
+    <Compile Include="BaseCore\CRM_Record_IntentionManager.cs" />
+    <Compile Include="BaseCore\CRM_RecordManager.cs" />
+    <Compile Include="BaseCore\CRM_Order_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_Order_CombinationManager.cs" />
+    <Compile Include="BaseCore\CRM_Market_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_Linkman_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_Linkman_CustManager.cs" />
+    <Compile Include="BaseCore\CRM_Linkman_CharManager.cs" />
+    <Compile Include="BaseCore\CRM_IntentionManager.cs" />
+    <Compile Include="BaseCore\CRM_Cust_RelationshipManager.cs" />
+    <Compile Include="BaseCore\CRM_Cust_Info_ExpandManager.cs" />
+    <Compile Include="BaseCore\CRM_Customer_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_AV_RecordManager.cs" />
+    <Compile Include="BaseCore\CRM_Authentication_InfoManager.cs" />
+    <Compile Include="BaseCore\CRM_Action_ClassManager.cs" />
+    <Compile Include="DbCore\DbContext.cs" />
+    <Compile Include="Class1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\SoEasyPlatform.Enties\SoEasyPlatform.Enties.csproj">
+      <Name>SoEasyPlatform.Enties</Name>
+      <Project>{165c6c50-2bba-4993-ad36-5cb7f3ef9678}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -41,18 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Business\GetCustomers.cs" />
+    <Compile Include="Business\SignIn\GetCustomers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unity\CRM_Customer_InfoService.cs" />
-    <Compile Include="Unity\CRM_Source_InfoService.cs" />
-    <Compile Include="Unity\HR_Employee_InfoService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EntityFramework\EntityFramework.csproj">
-      <Project>{8ea70a50-e864-466d-8896-f87ec05cc91d}</Project>
-      <Name>EntityFramework</Name>
+    <ProjectReference Include="..\SoEasyPlatform.BusinessCore\SoEasyPlatform.BusinessCore.csproj">
+      <Project>{8f9b467a-66e0-45a7-a2f9-d43d9de78542}</Project>
+      <Name>SoEasyPlatform.BusinessCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SoEasyPlatform.Enties\SoEasyPlatform.Enties.csproj">
+      <Project>{165c6c50-2bba-4993-ad36-5cb7f3ef9678}</Project>
+      <Name>SoEasyPlatform.Enties</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
