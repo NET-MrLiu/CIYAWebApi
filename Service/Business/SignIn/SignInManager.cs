@@ -66,6 +66,7 @@ namespace Service.Business
                 signin.sign_time = DateTime.Now;
                 signin.emp_position = emp[0].emp_position;
                 signin.ip = HttpContext.Current.Request.UserHostAddress;
+                signin.emp_depId = emp[0].dept_id;
                 count = CommonCline.Insertable(signin).ExecuteCommand();
             }
             else
@@ -93,12 +94,20 @@ namespace Service.Business
         /// <returns></returns>
         public CRM_SignIn SignInItemByCode(int code)
         {
-            return _SignIn.GetById(code).FirstOrDefault();
+            return _SignIn.GetById(code);
         }
 
+
+        /// <summary>
+        /// 编辑签到详细信息
+        /// </summary>
+        /// <param name="record"></param>
+        /// <param name="image_path"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public bool SignInItemEdit(string record, string image_path, int id)
         {
-            var obj = _SignIn.GetById(id).FirstOrDefault();
+            var obj = _SignIn.GetById(id);
             if (obj != null)
             {
                 if (!string.IsNullOrEmpty(record) && record != "0")

@@ -148,7 +148,7 @@ public class DbContext<T> where T : class, new()
     /// 根据主键查询
     /// </summary>
     /// <returns></returns>
-    public virtual List<T> GetById(dynamic id)
+    public virtual T GetById(dynamic id)
     {
         return CurrentDb.GetById(id);
     }

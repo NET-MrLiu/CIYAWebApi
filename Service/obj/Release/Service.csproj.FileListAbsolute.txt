@@ -1,0 +1,15 @@
+D:\项目\CiyaWebApi\Service\bin\Release\Service.dll.config
+D:\项目\CiyaWebApi\Service\bin\Release\Service.dll
+D:\项目\CiyaWebApi\Service\bin\Release\Service.pdb
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.BusinessCore.dll
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.Enties.dll
+D:\项目\CiyaWebApi\Service\bin\Release\Newtonsoft.Json.dll
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.BusinessCore.pdb
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.BusinessCore.dll.config
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.Enties.pdb
+D:\项目\CiyaWebApi\Service\bin\Release\SoEasyPlatform.Enties.dll.config
+D:\项目\CiyaWebApi\Service\obj\Release\Service.csprojAssemblyReference.cache
+D:\项目\CiyaWebApi\Service\obj\Release\Service.csproj.CoreCompileInputs.cache
+D:\项目\CiyaWebApi\Service\obj\Release\Service.csproj.CopyComplete
+D:\项目\CiyaWebApi\Service\obj\Release\Service.dll
+D:\项目\CiyaWebApi\Service\obj\Release\Service.pdb

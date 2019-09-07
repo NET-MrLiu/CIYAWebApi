@@ -1,1 +1,12 @@
 .vs/SoEasyPlatform/v15/Server/sqlite3/db.lock
+WebApi/bin/Service.dll
+WebApi/bin/Service.pdb
+WebApi/bin/SoEasyPlatform.BusinessCore.dll
+WebApi/bin/SoEasyPlatform.BusinessCore.pdb
+WebApi/bin/SoEasyPlatform.Enties.dll
+WebApi/bin/SoEasyPlatform.Enties.pdb
+WebApi/bin/WebApi.dll
+WebApi/bin/WebApi.pdb
+WebApi/Properties/PublishProfiles/FolderProfile.pubxml
+WebApi/Properties/PublishProfiles/FolderProfile.pubxml.user
+.vs/
