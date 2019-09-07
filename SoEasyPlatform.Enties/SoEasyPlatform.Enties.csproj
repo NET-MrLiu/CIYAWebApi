@@ -175,7 +175,6 @@
     <Compile Include="DbModels\CRM_AV_Record.cs" />
     <Compile Include="DbModels\CRM_Authentication_Info.cs" />
     <Compile Include="DbModels\CRM_Action_Class.cs" />
-    <Compile Include="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

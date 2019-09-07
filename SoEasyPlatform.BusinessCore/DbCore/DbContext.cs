@@ -64,9 +64,9 @@ public class DbContext<T> where T : class, new()
    public SimpleClient<HR_Dimission_Info> HR_Dimission_InfoDb { get { return new SimpleClient<HR_Dimission_Info>(Db); } }//用来处理HR_Dimission_Info表的常用操作
    public SimpleClient<SYS_Message> SYS_MessageDb { get { return new SimpleClient<SYS_Message>(Db); } }//用来处理SYS_Message表的常用操作
    public SimpleClient<SYS_Industry_Temp> SYS_Industry_TempDb { get { return new SimpleClient<SYS_Industry_Temp>(Db); } }//用来处理SYS_Industry_Temp表的常用操作
-   public SimpleClient<CRM_SignIn> CRM_SignInDb { get { return new SimpleClient<CRM_SignIn>(Db); } }//用来处理CRM_SignIn表的常用操作
    public SimpleClient<HR_Reinstate_Info> HR_Reinstate_InfoDb { get { return new SimpleClient<HR_Reinstate_Info>(Db); } }//用来处理HR_Reinstate_Info表的常用操作
    public SimpleClient<SYS_Action_Log> SYS_Action_LogDb { get { return new SimpleClient<SYS_Action_Log>(Db); } }//用来处理SYS_Action_Log表的常用操作
+   public SimpleClient<CRM_SignIn> CRM_SignInDb { get { return new SimpleClient<CRM_SignIn>(Db); } }//用来处理CRM_SignIn表的常用操作
    public SimpleClient<HR_Handover_Info> HR_Handover_InfoDb { get { return new SimpleClient<HR_Handover_Info>(Db); } }//用来处理HR_Handover_Info表的常用操作
    public SimpleClient<SYS_Config> SYS_ConfigDb { get { return new SimpleClient<SYS_Config>(Db); } }//用来处理SYS_Config表的常用操作
    public SimpleClient<OA_Workflow> OA_WorkflowDb { get { return new SimpleClient<OA_Workflow>(Db); } }//用来处理OA_Workflow表的常用操作

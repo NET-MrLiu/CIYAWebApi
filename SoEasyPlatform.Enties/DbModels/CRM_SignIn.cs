@@ -49,6 +49,13 @@ namespace Sugar.Enties
            /// Default:
            /// Nullable:True
            /// </summary>           
+           public int? emp_depId {get;set;}
+
+           /// <summary>
+           /// Desc:
+           /// Default:
+           /// Nullable:True
+           /// </summary>           
            public string emp_fulldep {get;set;}
 
            /// <summary>

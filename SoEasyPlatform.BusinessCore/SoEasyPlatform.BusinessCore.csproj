@@ -125,7 +125,6 @@
     <Compile Include="BaseCore\CRM_Authentication_InfoManager.cs" />
     <Compile Include="BaseCore\CRM_Action_ClassManager.cs" />
     <Compile Include="DbCore\DbContext.cs" />
-    <Compile Include="Class1.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

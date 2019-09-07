@@ -8,6 +8,6 @@ E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Debug\Newtonsoft.Json.xml
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csproj.CopyComplete
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.dll
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.pdb
-E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csprojAssemblyReference.cache
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Debug\SoEasyPlatform.Enties.dll.config
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csprojAssemblyReference.cache
