@@ -11,6 +11,7 @@ using System.Web.Http;
 using Service.Business;
 using Sugar.Enties;
 using System.Web;
+using Service.Business.Authorization;
 
 namespace WebApi.Controllers
 {
@@ -21,27 +22,11 @@ namespace WebApi.Controllers
         {
             if (!string.IsNullOrEmpty(code))
             {
-                DefaultDingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/gettoken");
-                OapiGettokenRequest request = new OapiGettokenRequest();
-                request.Appkey = "dingjl4zohfnzjnpqudc";
-                request.Appsecret = "38H3T-CatuPEwnZOXq5ZhDIwqDFGye4vrxc36yLVZx7pfAumOmZBN0WSgbZB-A0-";
-                request.SetHttpMethod("GET");
-                OapiGettokenResponse response = client.Execute(request);
-                string token = response.AccessToken;
-                client = new DefaultDingTalkClient("https://oapi.dingtalk.com/user/getuserinfo");
-                OapiUserGetuserinfoRequest request1 = new OapiUserGetuserinfoRequest();
-                request1.Code = code;
-                request1.SetHttpMethod("GET");
-                OapiUserGetuserinfoResponse response1 = client.Execute(request1, token);
-                String userId = response1?.Userid ?? null;
-
-                client = new DefaultDingTalkClient("https://oapi.dingtalk.com/user/get");
-                OapiUserGetRequest request2 = new OapiUserGetRequest();
-                request2.Userid = userId;
-                request2.SetHttpMethod("GET");
-                OapiUserGetResponse response2 = client.Execute(request2, token);
-                string str = JsonConvert.SerializeObject(new { response2.Jobnumber, response2.ManagerUserId, response2.Name, response2.Roles, response2.Userid });
-                return response2.Body;
+                string Appsecret = System.Configuration.ConfigurationManager.AppSettings["SinginAppsecret"] ?? "";
+                string AppKey = System.Configuration.ConfigurationManager.AppSettings["CrmMobileAppkey"] ?? "";
+                string token = AuthenticationRequest.GetDingToken(code, AppKey, Appsecret);
+                string user = AuthenticationRequest.GetDingUser(code, token);
+                return user;
             }
             else
             {

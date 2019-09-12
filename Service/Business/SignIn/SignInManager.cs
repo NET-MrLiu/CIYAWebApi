@@ -25,7 +25,7 @@ namespace Service.Business
             string emp_no = id;
             List<CRM_Customer_Info> list = new List<CRM_Customer_Info>();
             DateTime time = DateTime.Now;
-            var customerid = _CRMSourceService.GetList(x => x.src_emp_no == emp_no && x.src_end_date >= time).OrderBy(x => x.src_add_date).Select(x => x.src_cust_id).Distinct();
+            var customerid = _CRMSourceService.GetList(x => x.src_emp_no == emp_no && x.src_end_date >= time).OrderByDescending(x => x.src_add_date).Select(x => x.src_cust_id).Distinct();
             int?[] customers = customerid.ToArray();
             if (customers != null)
             {

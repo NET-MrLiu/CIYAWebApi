@@ -10,7 +10,6 @@ E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.dll
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.pdb
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Debug\SoEasyPlatform.Enties.dll.config
 E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Debug\Oracle.ManagedDataAccess.dll
-E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csprojAssemblyReference.cache
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\bin\Debug\SoEasyPlatform.Enties.dll.config
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\bin\Debug\SoEasyPlatform.Enties.dll
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\bin\Debug\SoEasyPlatform.Enties.pdb
