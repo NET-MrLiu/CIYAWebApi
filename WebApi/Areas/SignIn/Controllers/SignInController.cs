@@ -1,19 +1,16 @@
-﻿using DingTalk.Api;
-using DingTalk.Api.Request;
-using DingTalk.Api.Response;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using Service.Business;
+using Service.Business.Authorization;
+using Sugar.Enties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Web.Http;
-using Service.Business;
-using Sugar.Enties;
 using System.Web;
-using Service.Business.Authorization;
+using System.Web.Http;
 
-namespace WebApi.Controllers
+namespace WebApi.Areas.SignIn.Controllers
 {
     public class SignInController : ApiController
     {
@@ -83,6 +80,5 @@ namespace WebApi.Controllers
 
             return "1";
         }
-
     }
 }

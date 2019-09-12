@@ -38,3 +38,5 @@ D:\项目\CiyaWebApi\Service\obj\Debug\Service.csproj.CopyComplete
 D:\项目\CiyaWebApi\Service\obj\Debug\Service.dll
 D:\项目\CiyaWebApi\Service\obj\Debug\Service.pdb
 E:\CiYAapi\CIYAWebApi\Service\bin\Debug\TopSdk.dll
+E:\CiYAapi\CIYAWebApi\Service\bin\Debug\Common.dll
+E:\CiYAapi\CIYAWebApi\Service\bin\Debug\Common.pdb

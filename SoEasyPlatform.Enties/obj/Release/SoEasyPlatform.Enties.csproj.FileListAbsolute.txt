@@ -11,3 +11,16 @@ D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.csp
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.csproj.CopyComplete
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.dll
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.pdb
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\SoEasyPlatform.Enties.dll.config
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\SoEasyPlatform.Enties.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\SoEasyPlatform.Enties.pdb
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\MySql.Data.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\Newtonsoft.Json.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\Oracle.ManagedDataAccess.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\SqlSugar.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\bin\Release\Newtonsoft.Json.xml
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.csprojAssemblyReference.cache
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.csproj.CoreCompileInputs.cache
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.csproj.CopyComplete
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.dll
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Release\SoEasyPlatform.Enties.pdb

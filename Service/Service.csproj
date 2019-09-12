@@ -51,6 +51,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{a6be1ca7-5ed0-4ddf-8728-c0a93c0d2bf8}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SoEasyPlatform.BusinessCore\SoEasyPlatform.BusinessCore.csproj">
       <Project>{8f9b467a-66e0-45a7-a2f9-d43d9de78542}</Project>
       <Name>SoEasyPlatform.BusinessCore</Name>
