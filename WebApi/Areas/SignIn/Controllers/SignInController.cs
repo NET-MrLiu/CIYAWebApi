@@ -51,7 +51,6 @@ namespace WebApi.Areas.SignIn.Controllers
             catch (Exception e)
             {
                 return e.Message;
-                throw;
             }
             return "1";
         }

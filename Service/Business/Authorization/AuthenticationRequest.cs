@@ -80,7 +80,8 @@ namespace Service.Business.Authorization
         {
             OapiGetJsapiTicketResponse Ticket = GetDingJsapiTicket(token);
             string signature = DingSign(Ticket.Ticket, nonceStr, timeStamp, Url);
-            var obj = new {
+            var obj = new
+            {
                 Url,
                 nonceStr,
                 agentld,
@@ -133,6 +134,20 @@ namespace Service.Business.Authorization
             {
                 throw new Exception("SHA1加密出错：" + ex.Message);
             }
+        }
+
+
+        public static string GetDingfDep(string token)
+        {
+            DefaultDingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/department/list");
+            OapiDepartmentListRequest request = new OapiDepartmentListRequest();
+            request.Id="123";
+            request.SetHttpMethod("GET");
+            OapiDepartmentListResponse response = client.Execute(request, token);
+
+
+
+            return "";
         }
     }
 }

@@ -22,3 +22,4 @@ D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.cspro
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csproj.CopyComplete
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.dll
 D:\项目\CiyaWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.pdb
+E:\CiYAapi\CIYAWebApi\SoEasyPlatform.Enties\obj\Debug\SoEasyPlatform.Enties.csprojAssemblyReference.cache
