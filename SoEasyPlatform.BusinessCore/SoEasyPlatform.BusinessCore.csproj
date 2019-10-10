@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCore\RPT_PK_ProjectManager.cs" />
+    <Compile Include="BaseCore\RPT_PK_ProdManager.cs" />
+    <Compile Include="BaseCore\RPT_PK_ParticipantManager.cs" />
+    <Compile Include="BaseCore\RPT_PK_GroupManager.cs" />
+    <Compile Include="BaseCore\OA_Contract_NumberManager.cs" />
+    <Compile Include="BaseCore\OA_Company_Contract_InfoManager.cs" />
     <Compile Include="BaseCore\SYS_Type_InfoManager.cs" />
     <Compile Include="BaseCore\SYS_RoleManager.cs" />
     <Compile Include="BaseCore\SYS_Product_PermissionManager.cs" />

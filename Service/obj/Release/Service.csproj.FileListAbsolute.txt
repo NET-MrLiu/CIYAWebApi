@@ -19,7 +19,6 @@ E:\CiYAapi\CIYAWebApi\Service\bin\Release\Service.pdb
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\Common.dll
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\SoEasyPlatform.BusinessCore.dll
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\SoEasyPlatform.Enties.dll
-E:\CiYAapi\CIYAWebApi\Service\bin\Release\TopSdk.dll
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\Newtonsoft.Json.dll
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\Common.pdb
 E:\CiYAapi\CIYAWebApi\Service\bin\Release\SoEasyPlatform.BusinessCore.pdb

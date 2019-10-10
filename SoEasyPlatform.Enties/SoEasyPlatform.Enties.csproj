@@ -56,6 +56,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbModels\View_PK_Participant.cs" />
+    <Compile Include="DbModels\RPT_PK_Project.cs" />
+    <Compile Include="DbModels\RPT_PK_Prod.cs" />
+    <Compile Include="DbModels\RPT_PK_Participant.cs" />
+    <Compile Include="DbModels\RPT_PK_Group.cs" />
+    <Compile Include="DbModels\OA_Contract_Number.cs" />
+    <Compile Include="DbModels\OA_Company_Contract_Info.cs" />
     <Compile Include="DbModels\View_WXB_Expend_Daily.cs" />
     <Compile Include="DbModels\View_WXB_Expend.cs" />
     <Compile Include="DbModels\View_Workflow.cs" />

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\Authorization\AuthenticationRequest.cs" />
+    <Compile Include="Business\Contract\ContractManager.cs" />
     <Compile Include="Business\SignIn\SignInManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -67,16 +67,22 @@ public class DbContext<T> where T : class, new()
    public SimpleClient<HR_Reinstate_Info> HR_Reinstate_InfoDb { get { return new SimpleClient<HR_Reinstate_Info>(Db); } }//用来处理HR_Reinstate_Info表的常用操作
    public SimpleClient<SYS_Action_Log> SYS_Action_LogDb { get { return new SimpleClient<SYS_Action_Log>(Db); } }//用来处理SYS_Action_Log表的常用操作
    public SimpleClient<CRM_SignIn> CRM_SignInDb { get { return new SimpleClient<CRM_SignIn>(Db); } }//用来处理CRM_SignIn表的常用操作
+   public SimpleClient<RPT_PK_Project> RPT_PK_ProjectDb { get { return new SimpleClient<RPT_PK_Project>(Db); } }//用来处理RPT_PK_Project表的常用操作
    public SimpleClient<HR_Handover_Info> HR_Handover_InfoDb { get { return new SimpleClient<HR_Handover_Info>(Db); } }//用来处理HR_Handover_Info表的常用操作
    public SimpleClient<SYS_Config> SYS_ConfigDb { get { return new SimpleClient<SYS_Config>(Db); } }//用来处理SYS_Config表的常用操作
    public SimpleClient<OA_Workflow> OA_WorkflowDb { get { return new SimpleClient<OA_Workflow>(Db); } }//用来处理OA_Workflow表的常用操作
+   public SimpleClient<RPT_PK_Group> RPT_PK_GroupDb { get { return new SimpleClient<RPT_PK_Group>(Db); } }//用来处理RPT_PK_Group表的常用操作
    public SimpleClient<SYS_City_Info> SYS_City_InfoDb { get { return new SimpleClient<SYS_City_Info>(Db); } }//用来处理SYS_City_Info表的常用操作
    public SimpleClient<HR_Department_Info> HR_Department_InfoDb { get { return new SimpleClient<HR_Department_Info>(Db); } }//用来处理HR_Department_Info表的常用操作
+   public SimpleClient<RPT_PK_Participant> RPT_PK_ParticipantDb { get { return new SimpleClient<RPT_PK_Participant>(Db); } }//用来处理RPT_PK_Participant表的常用操作
+   public SimpleClient<RPT_PK_Prod> RPT_PK_ProdDb { get { return new SimpleClient<RPT_PK_Prod>(Db); } }//用来处理RPT_PK_Prod表的常用操作
    public SimpleClient<SYS_Hosts_Info> SYS_Hosts_InfoDb { get { return new SimpleClient<SYS_Hosts_Info>(Db); } }//用来处理SYS_Hosts_Info表的常用操作
    public SimpleClient<RPT_Performance_Record> RPT_Performance_RecordDb { get { return new SimpleClient<RPT_Performance_Record>(Db); } }//用来处理RPT_Performance_Record表的常用操作
    public SimpleClient<SYS_Product_Package> SYS_Product_PackageDb { get { return new SimpleClient<SYS_Product_Package>(Db); } }//用来处理SYS_Product_Package表的常用操作
    public SimpleClient<RPT_WXB_Project> RPT_WXB_ProjectDb { get { return new SimpleClient<RPT_WXB_Project>(Db); } }//用来处理RPT_WXB_Project表的常用操作
    public SimpleClient<RPT_Goals_Info> RPT_Goals_InfoDb { get { return new SimpleClient<RPT_Goals_Info>(Db); } }//用来处理RPT_Goals_Info表的常用操作
+   public SimpleClient<OA_Contract_Number> OA_Contract_NumberDb { get { return new SimpleClient<OA_Contract_Number>(Db); } }//用来处理OA_Contract_Number表的常用操作
+   public SimpleClient<OA_Company_Contract_Info> OA_Company_Contract_InfoDb { get { return new SimpleClient<OA_Company_Contract_Info>(Db); } }//用来处理OA_Company_Contract_Info表的常用操作
    public SimpleClient<CRM_Order_Info> CRM_Order_InfoDb { get { return new SimpleClient<CRM_Order_Info>(Db); } }//用来处理CRM_Order_Info表的常用操作
    public SimpleClient<OA_Task_Info> OA_Task_InfoDb { get { return new SimpleClient<OA_Task_Info>(Db); } }//用来处理OA_Task_Info表的常用操作
    public SimpleClient<HR_Employee_Info> HR_Employee_InfoDb { get { return new SimpleClient<HR_Employee_Info>(Db); } }//用来处理HR_Employee_Info表的常用操作
